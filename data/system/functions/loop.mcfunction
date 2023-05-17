@@ -1,0 +1,16 @@
+#Loop Func
+
+#Number Of Death
+execute if score timer num matches 1..100 run function system:nod/timer
+#function system:nod/display
+
+#Arrow Game
+function system:arch/arrowfx
+function system:arch/score/score
+
+function system:arch/target
+
+function system:arch/buff/select
+
+#Misc
+kill @e[type=item,name="Popped Chorus Fruit"]
