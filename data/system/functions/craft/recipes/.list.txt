@@ -1,0 +1,16 @@
+Recipe List (Depending On Score)
+Total: 12 Recipe (3 Required)
+Difficulty: Easy => Hard (Less To More Obscure)
+
+1 => Smoker /
+2 => Armor Stand /
+3 => Iron Trapdoor /
+4 => Soul Lantern /
+5 => Nether Brick Fence /
+6 => Chain /
+7 => Target Block /
+8 => Pumpkin Pie
+9 => Light Gray Glazed Terracotta
+10 => Chiseled Stone Bricks
+11 => Coarse Dirt
+12 => Polished Diorite
