@@ -1,6 +1,7 @@
 #Nether Brick Fence
 #Required Items
-give @s netherrack 18
+give @s nether_brick 3
+give @s netherrack 6
 give @s warped_stem 3
 give @s crimson_stem 2
 
