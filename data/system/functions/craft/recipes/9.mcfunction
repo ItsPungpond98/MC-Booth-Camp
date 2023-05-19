@@ -1,7 +1,8 @@
 #Light Gray Glazed Terracotta
 #Required Item
 give @s white_tulip
-give @s clay_ball 32
+give @s clay_ball 12
+give @s terracotta 5
 give @s oak_sapling 12
 give @s acacia_sapling 6 
 
