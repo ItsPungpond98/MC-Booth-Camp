@@ -2,8 +2,8 @@
 #Required Items
 give @s nether_brick 3
 give @s netherrack 6
-give @s warped_stem 3
-give @s crimson_stem 2
+give @s warped_planks 2
+give @s crimson_stem
 
 #Trick Items
 give @s nether_brick_wall
