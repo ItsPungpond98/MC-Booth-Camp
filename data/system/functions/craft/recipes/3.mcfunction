@@ -1,7 +1,8 @@
 #Iron Trapdoor
 #Required Items
-give @s raw_iron 6
-give @s oak_sapling 13
+give @s raw_iron 4
+give @s iron_ingot 2
+give @s oak_sapling 9
 
 #Trick Items
 give @s cobblestone 5

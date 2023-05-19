@@ -1,7 +1,8 @@
 #Chain
 #Required Items
 give @s raw_iron
-give @s iron_pickaxe 2
+give @s iron_pickaxe{Damage:198}
+give @s iron_boots{Damage:122}
 
 give @s acacia_planks
 give @s oak_planks 2
