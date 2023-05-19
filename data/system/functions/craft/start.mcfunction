@@ -19,3 +19,4 @@ tp @a[tag=wp4,limit=1] @e[tag=ws4,limit=1]
 #Start (Assign First Recipe)
 scoreboard players set @a[team=wplayer] crecipe 0
 execute as @a[team=wplayer] at @s run function system:craft/assignrecipe
+

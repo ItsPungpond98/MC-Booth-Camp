@@ -18,3 +18,6 @@ title @s actionbar [{"text": "Recipes Crafted: ","color": "white"},{"score":{"na
 #Experience
 xp set @s 0 levels
 xp set @s 0 points
+
+#Clear Recipe Book
+recipe take @a *
