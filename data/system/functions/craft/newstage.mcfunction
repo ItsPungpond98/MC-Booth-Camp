@@ -9,12 +9,12 @@ execute if score @s crecipe matches -2147483648..2147483647 run playsound block.
 
 scoreboard players reset @s haveitem
 
-execute if score @s crecipe matches 5 run function system:craft/finish
-
 #Reset Workstation
 execute if entity @s[tag=wp1] run setblock 82 64 169 minecraft:furnace[facing=south]
 execute if entity @s[tag=wp2] run setblock 86 64 169 minecraft:furnace[facing=south]
 execute if entity @s[tag=wp3] run setblock 90 64 169 minecraft:furnace[facing=south]
 execute if entity @s[tag=wp4] run setblock 94 64 169 minecraft:furnace[facing=south]
 
+#Give Recipe
 execute if score @s crecipe matches 0..4 run function system:craft/assignrecipe
+execute if score @s crecipe matches 5 run function system:craft/finish
