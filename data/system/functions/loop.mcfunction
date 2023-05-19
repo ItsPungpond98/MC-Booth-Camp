@@ -13,7 +13,7 @@ function system:arch/target
 function system:arch/buff/select
 
 #The Workshop
-execute as @a[team=wplayer,scores={crecipe=0..2}] at @s run function system:craft/detect
+execute as @a[team=wplayer,scores={crecipe=0..5}] at @s run function system:craft/detect
 
 
 #Misc

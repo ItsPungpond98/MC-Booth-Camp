@@ -1,7 +1,7 @@
 #Chiseled Stone Bricks
 #Required Items
-give @s cobblestone 3
-give @s mangrove_roots 2
+give @s cobblestone 4
+give @s mangrove_roots 3
 
 #Trick Items
 give @s stone_brick_stairs

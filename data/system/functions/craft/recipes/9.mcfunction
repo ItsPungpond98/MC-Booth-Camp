@@ -2,8 +2,8 @@
 #Required Item
 give @s white_tulip
 give @s clay_ball 32
-give @s oak_sapling 3
-give @s acacia_sapling 
+give @s oak_sapling 12
+give @s acacia_sapling 6 
 
 #Trick Items
 give @s ink_sac

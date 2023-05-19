@@ -11,4 +11,10 @@ execute if score @s recipe matches 10 store result score @s haveitem run clear @
 execute if score @s recipe matches 11 store result score @s haveitem run clear @s coarse_dirt 0
 execute if score @s recipe matches 12 store result score @s haveitem run clear @s polished_diorite 0
 
-execute if score @s haveitem matches 1.. if score @s crecipe matches 1..2 run execute as @s run function system:craft/assignrecipe
+execute if score @s haveitem matches 1.. if score @s crecipe matches 0..4 run execute as @s run function system:craft/newstage
+
+title @s actionbar [{"text": "Recipes Crafted: ","color": "white"},{"score":{"name": "@s","objective": "crecipe"},"color": "green"},{"text": "/5","color": "white"}]
+
+#Experience
+xp set @s 0 levels
+xp set @s 0 points
