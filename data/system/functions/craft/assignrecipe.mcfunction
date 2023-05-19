@@ -1,6 +1,9 @@
 #Clear Prev. Recipe
 clear @s
-scoreboard players add @s crecipe 1
+
+execute if score @s crecipe matches -2147483648..2147483647 run scoreboard players add @s crecipe 1
+execute unless score @s crecipe matches -2147483648..2147483647 run scoreboard players set @s crecipe 0
+
 scoreboard players reset @s haveitem
 
 execute if score @s crecipe matches 3 run function system:craft/finish

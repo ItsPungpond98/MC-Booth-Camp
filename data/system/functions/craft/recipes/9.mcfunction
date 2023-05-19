@@ -8,3 +8,5 @@ give @s acacia_sapling
 #Trick Items
 give @s ink_sac
 give @s lily_of_the_valley
+
+tellraw @s [{"text": "Craft A ","color": "white"},{"text": "Light Gray Glazed Terracotta","color": "green"},{"text": "!","color": "white"}]

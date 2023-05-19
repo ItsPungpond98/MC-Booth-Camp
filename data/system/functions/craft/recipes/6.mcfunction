@@ -10,3 +10,5 @@ give @s oak_planks
 give @s lead
 give @s slime_ball
 give @s string
+
+tellraw @s [{"text": "Craft A ","color": "white"},{"text": "Chain","color": "green"},{"text": "!","color": "white"}]

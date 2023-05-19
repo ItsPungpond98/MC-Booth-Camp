@@ -11,3 +11,5 @@ give @s cobblestone 10
 give @s campfire 
 give @s stick 6
 give @s charcoal 3
+
+tellraw @s [{"text": "Craft A ","color": "white"},{"text": "Smoker","color": "green"},{"text": "!","color": "white"}]

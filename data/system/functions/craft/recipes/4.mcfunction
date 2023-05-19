@@ -13,3 +13,6 @@ give @s nether_wart
 give @s glass
 
 give @s flint 4
+
+
+tellraw @s [{"text": "Craft A ","color": "white"},{"text": "Soul Lantern","color": "green"},{"text": "!","color": "white"}]

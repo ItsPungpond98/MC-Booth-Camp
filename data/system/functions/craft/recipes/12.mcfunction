@@ -8,3 +8,5 @@ give @s quartz_block
 give @s white_dye 3
 
 give @s granite 3
+
+tellraw @s [{"text": "Craft A ","color": "white"},{"text": "Polished Diorite","color": "green"},{"text": "!","color": "white"}]
