@@ -12,5 +12,9 @@ function system:arch/target
 
 function system:arch/buff/select
 
+#The Workshop
+execute as @a[tag=wplayer] at @s run function system:craft/detect
+
+
 #Misc
 kill @e[type=item,name="Popped Chorus Fruit"]

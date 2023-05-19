@@ -1,3 +1,11 @@
+#Clear Prev. Recipe
+clear @s
+scoreboard players add @s crecipe 1
+scoreboard players reset @s haveitem
+
+execute if score @s crecipe matches 3 run function system:craft/finish
+
+#Random Recipe
 execute store result score @s recipe run loot spawn 10000 100 10000 loot system:craft-recipe
 
 execute if score @s recipe matches 1 run function system:craft/recipes/1
