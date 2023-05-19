@@ -1,0 +1,51 @@
+====== Scoring System ======
+
+In round 1-3, players compete to gain points. The Last Place will be eliminated at the end of 3 rounds.
+The remaining 3 then compete in Final round to be the winner.
+
+#Note: If 2-3 players tie at last place, there'll be a tie breaker.
+
+==== Round 1-3 Scoring ====
+
+Round 1: The Number Of Death
+
+    Players Will Take Turn Guessing Numbers Between 0-99. If they guess the wrong number, they lose.
+
+Winners: 120pts | Loser: 0pts
+
+Round 2: The Archery Range
+Scoring Rules:
+    Hit Target 10 Blocks => Output * 1 [Max: 15]
+    Hit Target 20 Blocks => Output * 2 [Max: 30]
+    Hit Target 30 Blocks => Output * 3 [Max: 45]
+    Hit Target 40 Blocks => Output * 4 [Max: 60]
+    Hit Target 50 Blocks => Output * 5 [Max: 75]
+
+#Output => 1-15
+##Max Pts [No Bonus]: 225pts
+
+#If a player beats the highscore, they'll get bonus 25pts, and their score set as the highscore.
+##If highscore is too high (190+), it'll be reduced down in the next game. (Highscore Starting at 120)
+
+Max Pts [Plus Bonus]: 250pts [225pts+25pts]
+
+Round 3: Workshop
+    1st Place: 120pts
+    2nd Place: 100pts
+    3rd Place: 70pts
+    4th Place: 50pts
+
+###Over All Max Score: 390 [120+120+250]
+
+==== Tie Breaker ====
+Guess The Light
+    Players will guess the light that is on which will be hid by a curtain. 
+    They can either guess orange, cyan, or purple. If the player got it right, they'll be moving on.
+    The Player that loses this round will be ELIMINATED!
+
+==== Final Round ====
+Swamp Parkour (No Definite Name Yet)
+    Players will take turn completing the parkour trail through the swamp.
+    Their time will be recorded, and the fastest person wins!
+
+===================================

@@ -9,3 +9,6 @@ execute store result score pleft crecipe run execute if entity @a[tag=wplayer]
 execute if score pleft crecipe matches ..1 run title @a title [{"text": "Finish!","color": "gold"}]
 
 clear @s
+
+#Scoring Function
+#First => 
