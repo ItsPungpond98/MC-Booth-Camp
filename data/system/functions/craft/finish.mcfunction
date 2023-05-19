@@ -11,4 +11,3 @@ execute if score pleft crecipe matches ..1 run title @a title [{"text": "Finish!
 clear @s
 
 #Scoring Function
-#First => 
