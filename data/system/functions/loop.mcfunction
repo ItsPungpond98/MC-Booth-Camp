@@ -19,5 +19,8 @@ execute as @a[team=wplayer,scores={crecipe=0..5}] at @s run function system:craf
 execute if score reveal tiebreak matches 1..50 run function system:tiebreaker/reveal
 execute if score rdmt tiebreak matches 1..50 run function system:tiebreaker/random
 
+#Final Round (Froglight Trail)
+function system:final/start
+
 #Misc
 kill @e[type=item,name="Popped Chorus Fruit"]
