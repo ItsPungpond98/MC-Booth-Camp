@@ -25,3 +25,7 @@ scoreboard players operation dtenth ftimer /= 2 ftimer
 
 #Display
 function system:final/display
+
+execute if score tick ftimer matches 12000.. run execute as @a[team=finalparkour] at @s run title @a title [{"text": "DNF","color": "red"}]
+execute if score tick ftimer matches 12000.. run execute as @a[team=finalparkour] at @s run title @a subtitle [{"selector":"@s","color": "red"},{"text": "Took Too Long To Finish!","color": "white"}]
+execute if score tick ftimer matches 12000.. run execute as @a[team=finalparkour] at @s run function system:final/roundreset

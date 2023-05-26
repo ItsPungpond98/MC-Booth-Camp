@@ -21,6 +21,7 @@ execute if score rdmt tiebreak matches 1..50 run function system:tiebreaker/rand
 
 #Final Round (Froglight Trail)
 function system:final/start
+function system:final/checkpoint
 
 #Misc
 kill @e[type=item,name="Popped Chorus Fruit"]
