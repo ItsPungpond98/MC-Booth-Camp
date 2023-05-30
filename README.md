@@ -56,6 +56,6 @@ After all 5 rounds had ended, the scores from each round will be summed up, and 
 
 If the player got their total score more than the highscore, they will get the bonus 25 points. The starting highscore will be 120 Points. If the highscore is higher than 190 points, it will be reset back to 120 points where the cycle continues again. 
 
-**The highscore will stack over the episodes.*
+\**The highscore will stack over the episodes.*
 
 Therefore the most amount of points you can get from this round is a whopping **250 Points**, making it a point hoarder round.
