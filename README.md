@@ -20,7 +20,7 @@ The round ends after someone guessed the death number.
 **Scoring Rules:**<br>
 | Players | Points Rewarded |
 | --------- | ----------|
-| Win | 150 Points |
+| Win | 120 Points |
 | Lose | 0 Points |
 
 >**Notes:**<br>
@@ -58,3 +58,49 @@ If the player got their total score more than the highscore, they will get the b
 \**The highscore will stack over the episodes.*
 
 Therefore the most amount of points you can get from this round is a whopping **250 Points**, making it a point hoarder round.
+
+### 3. The Workshop
+
+In this round, the players will have to complete 5 of the 12 random recipes as fast as possible. <br>
+
+There're 12 possible recipes, and 5 will randomly be chosen. Here's all of the 12 possible recipes.
+
+1. Smoker
+2. Armor Stand
+3. Iron Trapdoor
+4. Soul Lantern
+5. Nether Brick Fence
+6. Chain
+7. Target Block
+8. Pumpkin Pie
+9. Light Gray Glazed Terracotta
+10. Chiseled Stone Bricks
+11. Coarse Dirt
+12. Polished Diorite
+
+In every recipe, the players will get both the required items to complete the recipe, and trick items to confuse them. The goal is to finish crafting those 5 recipes as fast as possible. After they had finished, they'll be assigned a place number which will give them the following amount of points.
+
+| Place | Points |
+| ----- | ------ |
+| 1 | 120 |
+| 2 | 100 |
+| 3 | 80 |
+| 4 | 50 |
+
+## Before The Finals
+After all the 3 point-collecter rounds are finished, the players will get their points from the first, all the way to the third challenged summed up altogether. At this point of the game, the maximum amount of points a player could get is 
+```js
+=> 120 + 250 + 120
+= 390 Points
+```
+Of course, tying scores could occour, so if either the last 2 places or the last 3 places are tied, they'll be headed onto the tie breaker, and the leading first or second places will get to watch it.
+
+### Tie Breaker
+In the tie breaker, the players will have to guess the litted light. Each light will be indicated with a color, so it's easy for them to guess. The contestants can guess between 3 colors; Orange, Cyan, and Purple. After the color had been radomized it's time for them to guess. The players **Can Not Guess The Same Color** as it could take too many turns for the game to end, thus making it repetitive.
+
+If only 2 players were playing in the tie breaker, and one got it right, the other player will be eliminated. If 3 players were competing, a different set of rules apply. If 1 player got it right, the other 2 continue competing for the ultimate loser.
+
+>**Note:**
+>In a really rare case of all 4 players tying, the score will be considered purely on the performance on the second challenge (The Hit & Miss). The first and second place will be safe while the 3rd and 4th place will have to compete in a tie breaker.
+
+The player that lose the tie breaker will be eliminated while the remaining 3 will compete in the last challenge.
