@@ -109,12 +109,48 @@ The player that lose the tie breaker will be eliminated while the remaining 3 wi
 
 In this round, the remaining 3 players will have to compete in the final obstacle called "The Frog Light Trail". They'll have to parkour through the swamp, and the only objective was to finish the fastest. The player that finishes the fastest wins the episode!
 
-# Activation
-In order to start or use the challenge, there's a specific instructions to use them.
+# Activation & Setup
+In order to start or use the challenge, there's a specific instructions to use them. Please follow these instructions **CAREFULLY**, so everything works as intended.
+
+## Pre-Game Setup
+After you, as the host had finished setting up the world on a server, you need to do some more things before getting started with the challenges.<br><br>
+***Important Note Before Starting:***<br> 
+Make sure you have op(Operator Permission) on the server before starting. If you don't, you can run the following command in your server's console to get the opertor permission.
+```mcfunction
+op <Your Username>
+```
+Also, every time you need to run a command in your chat, be sure to put `/` in front as it would just split out the text if you don't put it. This is very important, and can save you a ton of headaches if you're a very beginner to Minecraft commands.
+
+1. You as the host, must join a team called `host`, so the command won't get you involved with the challenges. You can do so by running this command in your chat.
+```mcfunction
+team join host
+```
+
+2. Let the players join. Be sure to keep them in Adventure mode by running this command in your chat box.
+```mcfunction
+gamemode adventure @a[team=!host]
+```
+
 ## The Number Of Death
 Here's how to set up a game of this challenge.
 1. Ask the player for their number. The availables number will be shown in their actionbar.
-2. Set their number to the `guess` scoreboard by running this command in your chat. *Note: you have to have op on the server, and be sure to put '/' in front.*
+2. Set their number to the `guess` scoreboard by running this command in your chat.
 ```mcfunction
 scoreboard players set <Player Name> guess <Their Guess>
 ```
+3. Run the checking function as the player using this command.
+```mcfunction
+execute as <Player Name> run function system:nod/verify
+```
+4. Let the command do its thing, and reveal whether the contestant guessed it correctly or not.
+
+>**Note:**<br>
+>This is still a test version, so the full guide is coming soon.
+
+## Hit & Miss
+1. Grab a player, and give them the `archer` team by running this command
+```mcfunction
+team join archer <Player Name>
+```
+>***Important Note:***<br>
+>Do Not Leave The Player Name Blank As It Would Mean Assigning The Team To Yourself.
