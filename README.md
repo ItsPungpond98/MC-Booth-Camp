@@ -104,3 +104,17 @@ If only 2 players were playing in the tie breaker, and one got it right, the oth
 >In a really rare case of all 4 players tying, the score will be considered purely on the performance on the second challenge (The Hit & Miss). The first and second place will be safe while the 3rd and 4th place will have to compete in a tie breaker.
 
 The player that lose the tie breaker will be eliminated while the remaining 3 will compete in the last challenge.
+
+## Final Round
+
+In this round, the remaining 3 players will have to compete in the final obstacle called "The Frog Light Trail". They'll have to parkour through the swamp, and the only objective was to finish the fastest. The player that finishes the fastest wins the episode!
+
+# Activation
+In order to start or use the challenge, there's a specific instructions to use them.
+## The Number Of Death
+Here's how to set up a game of this challenge.
+1. Ask the player for their number. The availables number will be shown in their actionbar.
+2. Set their number to the `guess` scoreboard with this command.
+```mcfunction
+scoreboard players set <Player Name> guess <Their Guess>
+```
