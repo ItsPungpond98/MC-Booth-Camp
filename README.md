@@ -229,6 +229,7 @@ function system:tiebreaker/reveal
 Since this is just the datapack of the map, the map will be there along with the datapack in the release. This datapack is still in the development stage, and some features like the total points system hasn't been made yet. Anyway, thanks for checking it out, and I appreciate you making this far.
 <br>
 
+**Best,**<br>
 **Itspungpond98**
 
 ___
