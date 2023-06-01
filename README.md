@@ -116,5 +116,5 @@ Here's how to set up a game of this challenge.
 1. Ask the player for their number. The availables number will be shown in their actionbar.
 2. Set their number to the `guess` scoreboard with this command.
 ```mcfunction
-scoreboard players set <Player Name> guess <Their Guess>
+/scoreboard players set <Player Name> guess <Their Guess>
 ```
