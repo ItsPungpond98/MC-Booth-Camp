@@ -109,6 +109,23 @@ The player that lose the tie breaker will be eliminated while the remaining 3 wi
 
 In this round, the remaining 3 players will have to compete in the final obstacle called "The Frog Light Trail". They'll have to parkour through the swamp, and the only objective was to finish the fastest. The player that finishes the fastest wins the episode!
 
+>**Note:**<br>
+>The time limit will be capped at 5 minutes, so the the game won't be too boring for other competitors. Plus, an average run shouldn't take over 2 minutes, or maybe 3 minutes at worst.
+
+Here's the table to see whether your time is good or not. (If People Want To Compare)
+
+| Time | Valuation |
+| ------- | --------- |
+| < 0:45 | Very Good! |
+| 0:46 - 1:00 | Great! |
+| 1:01- 1:30 | Good |
+| 1:31 - 2:15 | Average |
+| 2:16 - 3:00 | Poor |
+| 3:01 - 5:00 | Bad |
+
+*The average time should be about 0:50 - 1:20*
+
+
 # Activation & Setup
 In order to start or use the challenge, there's a specific instructions to use them. Please follow these instructions **CAREFULLY**, so everything works as intended.
 
@@ -164,3 +181,48 @@ team join archer <Player Name>
 execute as @a[team=archer] run function system:arch/start
 ```
 *You can either choose to select the player themselves, or use this as they will be removed from the team after their turn ends.*
+
+4. Let them compelete their turn, and the scoring system will announce their score automatically.
+
+5. After they've finished their turn, take them back, and repeat until every players each had a turn.
+
+## The Work Shop
+This might just be the easiest one of them all.
+
+1. Grab all 4 players, and bring them to the workshop.
+2. Run the starting function in your chat with this command.
+```mcfunction
+function system:craft/start
+```
+3. Let the players complete the challenge. Wait until the 'Finish' title pop up on your screen.
+
+4. Run the reset command in your chat to reset the challenge, and bring the players out of their work station.
+```mcfunction
+function system:craft/reset
+```
+
+## The Tie Breaker
+1. Grab the players, and bring the into their position.
+2. Run the following command in your chat to randomize the lights.
+```mcfunction
+function system:tiebreaker/prep
+```
+3. Let the players choose their lights, note that their guess couldn't be the same.
+4. After that, run this command in your chat to reveal the answer, and let the excitement fill up the viewer and player's body.
+```mcfunction
+function system:tiebreaker/reveal
+```
+5. Repeat from step **2** until you've got your ultimate loser.
+
+## The Frog Light Trail
+1. Grab the players to the staring area.
+2. Pick out a player to compete the course.
+3. Guide them to the starting gate (The Left Bridge), and make them run through it.
+4. The timer will start, and their only objective was to finish the course as fast as possible.
+5. When the player walks through the finish, the timer will stop, revealing their time.
+6. Repeat from step **2** until all players each gone through the course.
+
+>**Important Note:**<br>
+>The function `system:final/reset` is only used for resetting the **Entire Game**, so ***DO NOT RUN IT BETWEEN EACH PLAYER'S TURN!***
+
+# Conclusion
