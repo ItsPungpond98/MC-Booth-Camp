@@ -3,7 +3,7 @@
 This is a potential gameshow where contestants will compete in various challenges to test their Minecraft skills. Starting with 4 excited players, but only one could be the winner.
 <br><br>
 
-# Rules
+# I. Rules
 There will be 4 rounds in total, starting with the 3 point-collector rounds, a tie breaker (depending on the state of the game), and the final round.
 
 ## Point Collector Rounds
@@ -126,10 +126,10 @@ Here's the table to see whether your time is good or not. (If People Want To Com
 *The average time should be about 0:50 - 1:20*
 
 
-# Activation & Setup
+# II. Activation & Setup
 In order to start or use the challenge, there's a specific instructions to use them. Please follow these instructions **CAREFULLY**, so everything works as intended.
 
-## Before We Start
+## I. Before We Start
 After you, as the host had finished setting up the world on a server, you need to do some more things before getting started with the challenges.<br><br>
 ***Important Note Before Starting:***<br> 
 Make sure you have op(Operator Permission) on the server before starting. If you don't, you can run the following command in your server's console to get the opertor permission.
@@ -150,7 +150,7 @@ gamemode adventure @a[team=!host]
 
 3. After finishing these 2 steps, it's time to start the real event.
 
-## The Number Of Death
+## II. The Number Of Death
 Here's how to set up a game of this challenge.
 1. Ask the player for their number. The availables number will be shown in their actionbar.
 2. Set their number to the `guess` scoreboard by running this command in your chat.
@@ -166,7 +166,7 @@ execute as <Player Name> run function system:nod/verify
 >**Note:**<br>
 >This is still a test version, so the full guide is coming soon.
 
-## Hit & Miss
+## III. Hit & Miss
 1. Grab a player, and give them the `archer` team by running this command
 ```mcfunction
 team join archer <Player Name>
@@ -186,7 +186,7 @@ execute as @a[team=archer] run function system:arch/start
 
 5. After they've finished their turn, take them back, and repeat until every players each had a turn.
 
-## The Work Shop
+## IV. The Work Shop
 This might just be the easiest one of them all.
 
 1. Grab all 4 players, and bring them to the workshop.
@@ -201,7 +201,7 @@ function system:craft/start
 function system:craft/reset
 ```
 
-## The Tie Breaker
+## V. The Tie Breaker
 1. Grab the players, and bring the into their position.
 2. Run the following command in your chat to randomize the lights.
 ```mcfunction
@@ -214,7 +214,7 @@ function system:tiebreaker/reveal
 ```
 5. Repeat from step **2** until you've got your ultimate loser.
 
-## The Frog Light Trail
+## VI. The Frog Light Trail
 1. Grab the players to the staring area.
 2. Pick out a player to compete the course.
 3. Guide them to the starting gate (The Left Bridge), and make them run through it.
@@ -225,4 +225,10 @@ function system:tiebreaker/reveal
 >**Important Note:**<br>
 >The function `system:final/reset` is only used for resetting the **Entire Game**, so ***DO NOT RUN IT BETWEEN EACH PLAYER'S TURN!***
 
-# Conclusion
+# III. Conclusion
+Since this is just the datapack of the map, the map will be there along with the datapack in the release. This datapack is still in the development stage, and some features like the total points system hasn't been made yet. Anyway, thanks for checking it out, and I appreciate you making this far.
+<br>
+
+**Itspungpond98**
+
+___
