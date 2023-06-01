@@ -112,7 +112,7 @@ In this round, the remaining 3 players will have to compete in the final obstacl
 # Activation & Setup
 In order to start or use the challenge, there's a specific instructions to use them. Please follow these instructions **CAREFULLY**, so everything works as intended.
 
-## Pre-Game Setup
+## Before We Start
 After you, as the host had finished setting up the world on a server, you need to do some more things before getting started with the challenges.<br><br>
 ***Important Note Before Starting:***<br> 
 Make sure you have op(Operator Permission) on the server before starting. If you don't, you can run the following command in your server's console to get the opertor permission.
@@ -130,6 +130,8 @@ team join host
 ```mcfunction
 gamemode adventure @a[team=!host]
 ```
+
+3. After finishing these 2 steps, it's time to start the real event.
 
 ## The Number Of Death
 Here's how to set up a game of this challenge.
@@ -154,3 +156,11 @@ team join archer <Player Name>
 ```
 >***Important Note:***<br>
 >Do Not Leave The Player Name Blank As It Would Mean Assigning The Team To Yourself.
+
+2. Take the player, and guide them to the button panel where they will choose their power up.
+
+3. After they're done choosing their power up, guide them to the archery range, and run this command as the player.
+```mcfunction
+execute as @a[team=archer] run function system:arch/start
+#You can either choose to select the player themselves, or use this as they will be removed from the team after their turn ends.
+```
