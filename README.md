@@ -162,5 +162,5 @@ team join archer <Player Name>
 3. After they're done choosing their power up, guide them to the archery range, and run this command as the player.
 ```mcfunction
 execute as @a[team=archer] run function system:arch/start
-#You can either choose to select the player themselves, or use this as they will be removed from the team after their turn ends.
 ```
+*You can either choose to select the player themselves, or use this as they will be removed from the team after their turn ends.*
