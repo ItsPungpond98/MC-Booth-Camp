@@ -114,7 +114,7 @@ In order to start or use the challenge, there's a specific instructions to use t
 ## The Number Of Death
 Here's how to set up a game of this challenge.
 1. Ask the player for their number. The availables number will be shown in their actionbar.
-2. Set their number to the `guess` scoreboard with this command.
+2. Set their number to the `guess` scoreboard by running this command in your chat. *Note: you have to have op on the server, and be sure to put '/' in front.*
 ```mcfunction
-/scoreboard players set <Player Name> guess <Their Guess>
+scoreboard players set <Player Name> guess <Their Guess>
 ```
